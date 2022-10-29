@@ -14,3 +14,9 @@ npm run build
 ```bash
 npm run dev
 ```
+
+```bash
+docker build -t labweb-frontend .
+
+docker run --name labweb-frontend -p 3000:3000 labweb-frontend
+```
